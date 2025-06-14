@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shoot | My Account</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    .container{
+         display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 350px;
+    }
+    .login-container img{
+        width: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 42%;
+        text-align: center;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #333;
+      font-family:  "freightBigProFont", "freightBigProFont Fallback" ;
+      letter-spacing: 1px
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-container input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background-color: #c4974c;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-container input[type="submit"]:hover {
+      background-color: #e1b76f;
+    }
+
+    .login-container p {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-container a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+
+</style>
+<body>
+
+    <header>
+      <nav id="navbar">
+        <div id="logo">
+          <a href="index.html"><img src="img\nav logo\1.webp" alt="logo" /></a>
+        </div>
+        <ul id="links">
+          <li><a href="">How To Work</a></li>
+          <li><a href="">Photo Pricing</a></li>
+          <li><a href="">The Shoot Experience</a></li>
+          <li><a href="">Our Services</a></li>
+          <li><a href="">Resources</a></li>
+        </ul></div>
+          <p id="user-icon" > <a href="login.html"><i class="fa-solid fa-user"></i></a> </p>
+          <button id="btn1">Book Now</button></div>
+      </nav>
+    </header>
+
+   <div class="container">
+  <div class="login-container">
+    <img src="img\login img\shoott-logo-mobile-CgVVtNE4.png" alt="">
+    <h2>Login</h2>
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <input type="password" placeholder="Enter your password" required>
+      <input type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="#">Sign up</a></p>
+  </div></div>
+
+</body>
+</html>
